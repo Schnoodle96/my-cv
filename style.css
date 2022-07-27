@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+.container .leftSide{
+    position: relative;
+    background: #212F3D;
+    padding: 40px;
+}
+.perfilText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:20px;
+    border-bottom: 1px solid;
+
+}
+.perfilText .imgl{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+.perfilText .imgl img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+.perfilText h2{
+    color: rgb(255,152,0);
+    font-size: 1.5em;
+    margin-top:20px ;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    
+    
+}
+.perfilText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #fff;
+
+}
+.contact{
+    padding-top: 40px;
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 20px o;
+    cursor: pointer;
+}
+.titulo{
+ 
+    color: rgb(255,152,0);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: rgb(255,152,0);
+}
+
+.contactEducacion .titulo{
+    padding-top: 20px;
+}
+.contactEducacion h5{
+    color: rgb(255,152,0) ;
+    font-weight: 500;
+}
+.contactEducacion li h4{
+    color: #fff ;
+}
+.contactEducacion #uni{
+    color: gray ;
+}
+
+.contact.habilidades .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:rgba(0, 0, 0, 1);
+    display: block;
+
+}
+.contact.habilidades .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    background-color: rgb(255,152,0);
+}
+
+.container .rightSide{
+    position: relative;
+    background: #fff;
+    padding: 30px;
+    
+}
+
+.about h2{
+    color: rgb(255,152,0);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px; 
+   
+    
+}
+.about p{
+    text-align: justify;
+    letter-spacing: 1px;
+  
+    margin-bottom: 20px; 
+  
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+
+}
+.about h5 {
+    color: #212F3D;
+}
+.about p{
+    color: #212F3D;
+
+}
+
+ .right-main-content{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+ 
+ }
